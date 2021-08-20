@@ -7,7 +7,7 @@ public class SomaController {
 	}
 	
 	public int soma(int numero) {
-		//Condição de parada
+		//Condição de parada se o número for menor ou igual a zero retona 0.
 		if (numero <= 0) {
 			return 0;
 		}else {
